@@ -1,0 +1,2 @@
+Run: !pip install pytorch-pretrained-bert in the notebook (mentioned)
+Download Flick8k dataset from https://www.kaggle.com/adityajn105/flickr8k
