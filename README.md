@@ -8,6 +8,7 @@ The University of Queensland, Australia
 ## Brief Overview -
 Image captioning aims to describe an image with a concise, accurate, and interesting sentence. In this project, an image captioning model is developed which explicitly identifies and tackles the annotation quality issues in image captioning, which allows the model to efficiently learn the higher quality annotations in priority.
 
+The next sections provide a brief outline of the structure we have followed
 ## Prerequisities
 Mentioned in requirements.txt file
 
@@ -29,6 +30,8 @@ The Word Embedding layer of Pytorch was used, followed by a many-to-many LSTM la
 #### Transformer
 The BERT model is used to understand the context of words as per all the surroundings of the word. A sequence of tokens in the form of integer IDs is passed to the BERT model to obtain the Word Embedding.
 We have used the pretrained base-uncased BERT model.
+
+### Caption Generation
 
 ### Loss function
 In this work, we explicitly engage human consensus to measure the quality of ground truth captions in advance, and directly encourage the model to learn high quality captions with high priority. 
